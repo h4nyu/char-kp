@@ -1,0 +1,6 @@
+store
+**/__pycache__
+.cache
+signate.json
+*.log
+.env

@@ -6,8 +6,17 @@ authors = ["Xinyuan Yao <yao.ntno@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+object-detection = {path = "object-detection"}
+requests = "^2.25.1"
+scikit-image = "^0.18.1"
+albumentations = "^0.5.2"
+torch-optimizer = "^0.1.0"
+toolz = "^0.11.1"
 
 [tool.poetry.dev-dependencies]
+mypy = "^0.812"
+pytest = "^6.2.2"
+black = "^20.8b1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
